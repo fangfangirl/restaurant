@@ -1,0 +1,245 @@
+	.overlay {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(70, 68, 68, 0.6)
+	}
+
+	.side-nav li>a {
+		padding: 0 16px;
+	}
+
+	nav {
+		height: 80px;
+		line-height: 80px;
+	}
+
+	nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
+		height: 80px;
+		line-height: 80px;
+	}
+
+	nav .button-collapse i {
+		height: 80px;
+		line-height: 80px;
+	}
+
+	@media only screen and (min-width: 601px){
+		nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+			height: 80px;
+			line-height: 80px;
+		}
+	}
+
+	/*  for search area */
+	#dropdown {
+		background-color: #FFF4E6;
+		padding: 20px;
+		border-radius: 10px;
+	}
+	#search {
+		background-color: #FFF4E6;
+		padding: 10px;
+		border-radius: 10px;
+		margin-top: 20px;
+	}
+	#search:focus {
+		border: 2px solid #FFAC81;
+		box-shadow: none;
+	}
+	#show-dropdown {
+		background-color: #FFAC81;
+		border: none;
+		color: white;
+		padding: 10px 20px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		margin-top: 20px;
+		border-radius: 10px;
+		cursor: pointer;
+	}
+	#show-dropdown:hover {
+		background-color: #FF8966;
+	}
+	#location, #type {
+		display: none;
+		width: 100%;
+		height: 40px;
+		margin-bottom: 20px;
+		border: 2px solid #FFAC81;
+		border-radius: 5px;
+		padding: 0 10px;
+		font-size: 16px;
+		background-color: white;
+	}
+	#location:focus, #type:focus {
+		outline: none;
+	}
+	button[type="submit"] {
+		background-color: #FFAC81;
+		border: none;
+		color: white;
+		padding: 10px 20px;
+		text-align: center;
+		text-decoration: none;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-size: 16px;
+		margin-top: 20px;
+		border-radius: 10px;
+		cursor: pointer;
+	}
+	button[type="submit"]:hover {
+	  background-color: #FF8966;
+	}
+
+	/* 導航 */
+	.navigation ul {
+		list-style-type: none;
+		margin-left: 86%;       
+		padding: 0;        
+		width: 13%; 
+		background-color: #FFF4E6;        
+		position: fixed;       
+		overflow: auto;        
+		z-index:999;
+		box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+		border-radius: 10px;
+		border: 1px solid #555;		
+		top: 300px;
+	}
+
+	.navigation li a {
+		display: block;
+		color: black;
+		padding: 8px 0 8px 16px;
+		text-decoration: none;
+		font-size: 18px;
+		transition: background-color 0.3s ease-in-out;
+	}
+
+	/* Change the link color on hover */
+	.navigation li a:hover {
+		background-color: #FFAC81;
+		color: white;
+	}
+
+	.navigation li:first-child {
+		background-color: #FF8966;
+		border-radius: 10px 10px 0 0;
+	}
+
+	.navigation li:first-child a {
+		font-size: 24px;
+		padding: 12px 0 8px 16px;
+		color: #fff;
+	}
+	
+	.navigation li:first-child a:hover {
+		background-color: #FF8966;
+		color: white;
+	}
+
+	/*美食分類*/
+	.section-about h3 {
+		text-shadow: 1px 1px 1px rgba(193,193,193,0.46);
+	}
+
+	.section-about .row {
+		margin-top: 25px;
+	}
+
+	.section-about .card {
+		overflow: hidden;
+		border-radius: 10px;
+	}
+
+	.section-about .card-image {
+		position: relative;
+		height: 200px;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+
+	.section-about .card-image:hover {
+		transform: scale(1.1);
+		transition: all .3s linear;
+		-webkit-transition: all .3s linear;
+	}
+
+	.section-about .card-image .overlay {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(182, 178, 178, .4);
+	}
+
+	.section-about .card-image:hover .overlay {
+		background-color: rgba(151, 146, 146, .2);
+		transition: all .3s linear;
+		-webkit-transition: all .3s linear;
+	}
+
+	.section-about .card-image:hover .card-title {
+		opacity: 1;
+		transition: all .3s linear;
+		-webkit-transition: all .3s linear;
+	}
+
+	.section-about .card-image .card-title {
+		top: 40%;
+		left: 0;
+		width: 100%;
+		padding: 0;
+		font-size: 1.2rem;
+		text-shadow: 2px 2px 10px #363636;
+		text-align: center;
+		opacity: 0;
+	}
+	
+	.parallax-container {
+      height: "400px";
+    }
+	
+	.btn {
+		background-color: #FFAC81;
+		color: white;
+		border-radius: 10px;
+		cursor: pointer;
+	}
+	
+	.error {color: #FF0000;}
+	
+	.tabs .tab a{
+		color:#FFAC81;
+	} /*text color*/
+
+	.tabs .tab a:hover {
+		background-color:#FF8966;
+		color:white;
+	} /*Text color on hover*/
+
+	.tabs .tab a.active {
+		color:#FFAC81;
+	} /*Background and text color when a tab is active*/
+
+	.tabs .indicator {
+		background-color:#FFAC81;
+	} /*Color of underline*/
+
+	.circular--portrait {
+		position: relative;
+		width: 20vw;
+		height: 20vw;
+		overflow: hidden;
+		border-radius: 50%;
+	  }
+	  .circular--portrait img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	  }

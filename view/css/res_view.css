@@ -1,0 +1,185 @@
+	/*四條邊邊*/
+	#mySidenav a {
+	  position: fixed;
+	  left: -80px;
+	  transition: 0.3s;
+	  padding: 15px;
+	  width: 130px;
+	  text-decoration: none;
+	  font-size: 20px;
+	  color: white;
+	  border-radius: 0 5px 5px 0;
+	}
+	#mySidenav a:hover {
+	  left: 0;
+	}
+	#about {
+	  top: 300px;
+	  background-color: #546E7A
+	}
+	#blog {
+	  top: 370px;
+	  background-color: #FFAB91
+	}
+	#projects {
+	  top: 440px;
+	  background-color: #9E9E9E
+	}
+	#contact {
+	  top: 510px;
+	  background-color: #BCAAA4
+	}
+		
+		
+	.overlay {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(70, 68, 68, 0.6)
+	}
+	
+	.side-nav li>a {
+		padding: 0 16px;
+	}
+	
+	.btn {
+		background-color: #FFAC81;
+		color: white;
+		border-radius: 10px;
+		cursor: pointer;
+	}
+	
+	.bottom {
+		vertical-align: bottom;
+	}
+	
+	nav {
+		height: 80px;
+		line-height: 80px;
+	}
+	
+	nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
+		height: 80px;
+		line-height: 80px;
+	}
+	
+	nav .button-collapse i {
+		height: 80px;
+		line-height: 80px;
+	}
+	
+	@media only screen and (min-width: 601px){
+		nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+			height: 80px;
+			line-height: 80px;
+		}
+	}
+	
+	button[type="submit"] {
+		background-color: #FFAC81;
+		border: none;
+		color: white;
+		padding: 10px 20px;
+		text-align: center;
+		text-decoration: none;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-size: 16px;
+		margin-top: 20px;
+		border-radius: 10px;
+		cursor: pointer;
+	}
+	button[type="submit"]:hover {
+	  background-color: #FF8966;
+	}
+	
+	.parallax-container {
+		height: 300px;
+    }	
+	
+	.inner {
+		position: relative; 
+		height: 400px;
+		display: flex;
+		align-items: center; 
+	}
+	
+	.tabs .tab a{
+		color:#FFAC81;
+	} /*text color*/
+
+	.tabs .tab a:hover {
+		background-color:#FF8966;
+		color:white;
+	} /*Text color on hover*/
+
+	.tabs .tab a.active {
+		color:#FFAC81;
+	} /*Background and text color when a tab is active*/
+
+	.tabs .indicator {
+		background-color:#FFAC81;
+	} /*Color of underline*/
+	
+	.carousel {
+		height: 200px;
+	}
+	
+	.card-panel {
+		height: 150px;
+		color: black;
+	}
+	
+	
+
+	/*星星條*/
+	/* Three column layout */
+	.side {
+	  float: left;
+	  width: 15%;
+	  margin-top:10px;
+	}
+
+	.middle {
+	  margin-top:10px;
+	  float: left;
+	  width: 70%;
+	}
+
+	/* Place text to the right */
+	.toright {
+	  text-align: right;
+	}
+
+	/* Clear floats after the columns */
+	.row:after {
+	  content: "";
+	  display: table;
+	  clear: both;
+	}
+
+	/* The bar container */
+	.bar-container {
+	  width: 100%;
+	  background-color: #f1f1f1;
+	  text-align: center;
+	  color: white;
+	}
+
+	/* Responsive layout - make the columns stack on top of each other instead of next to each other */
+	@media (max-width: 400px) {
+	  .side, .middle {
+		width: 100%;
+	  }
+	  .right {
+		display: none;
+	  }
+	}
+
+	.loading-message {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100%;
+	  }
