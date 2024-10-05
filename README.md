@@ -1,6 +1,4 @@
-# Restaurant Platform
-
-## 環境設置
+# Restaurant Platform 環境設置
 
 ### 1. 下載與安裝 XAMPP
 
