@@ -34,3 +34,11 @@ if ($conn->connect_error) {
 }
 echo "連接成功";
 ?>
+
+### 4. 瀏覽餐廳平台
+
+1. 將專案檔案放入 `C:\xampp\htdocs\restaurant(您的資料夾名稱)` 目錄中。
+2. 打開 XAMPP 控制面板，啟動 **Apache** 和 **MySQL** 服務。
+3. 在瀏覽器中輸入 `http://localhost/restaurant(您的資料夾名稱)/view`。
+4. 你應該會看到我們的系統平台頁面
+
