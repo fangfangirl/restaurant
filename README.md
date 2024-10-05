@@ -34,7 +34,7 @@ if ($conn->connect_error) {
 }
 echo "連接成功";
 ?>
-
+```
 ### 4. 瀏覽餐廳平台
 
 1. 將專案檔案放入 `C:\xampp\htdocs\restaurant(您的資料夾名稱)` 目錄中。
