@@ -1,4 +1,3 @@
-# restaurant
 # Restaurant Platform
 
 ## 環境設置
